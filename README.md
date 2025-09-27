@@ -1,4 +1,5 @@
 ⚠ The Public Data Portal API server is currently down, so the program will not function correctly. ⚠
+⚠ Use "Dungeon_Escape.ipynb" when working with Anaconda, and use "Dengeon_Escape.py" when working with Visual Studio Code. ⚠
 
 [Character Controls]
 Exploration
