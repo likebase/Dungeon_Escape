@@ -1,0 +1,16 @@
+Ctrl + L: Load map file or image file
+
+Ctrl + S: Save map file or image file
+
+wasd: Move the tileset on the left hand side
+
+Arrow keys: Move the tileset on the right hand side
+
+alt + left click and drag: Draws a red rectangle that visualizes collision boundary
+
+alt + right click: Removes collision boundary's
+ 
+
+Click on a tile on the left hand side, and then paint this tile to the right hand side by left clicking and/or dragging.
+
+The painted tiles can be removed by right clicking and/or dragging.
