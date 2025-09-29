@@ -5,7 +5,7 @@
 [Character Controls]  
 Exploration
  - Control the character using MediaPipe hand tracking.
- - The character moves based on the area detected by the camera.  
+ - The character moves based on the area detected by the camera.
 Battle
  - Connect a microphone and follow the guide commands displayed on the right side to perform battle actions.
 
