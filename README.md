@@ -2,19 +2,19 @@
 ⚠ You can check it through the gameplay video in the PlayVideo folder. ⚠  
 ⚠ Use "Dungeon_Escape.ipynb" when working with Anaconda, and use "Dengeon_Escape.py" when working with Visual Studio Code. ⚠  
 
-[Main Features of the Content]
+---------- Main Features of the Content ----------
  - Control via Natural User Interface (NUI) using MediaPipe and speech recognition
  - Apply real-time weather data to influence the content environment
 
-[Character Controls]  
-Exploration
+---------- Character Controls ----------  
+[Exploration]
  - Control the character using MediaPipe hand tracking.
  - The character moves based on the area detected by the camera.
 
-Battle
+[Battle]
  - Connect a microphone and follow the guide commands displayed on the right side to perform battle actions.
 
-[External Packages - Installation Required]
+---------- External Packages - Installation Required ----------
  - pygame
  - opencv-python
  - numpy
@@ -23,7 +23,7 @@ Battle
  - requests
  - xmltodict
 
-[Internal Packages - No Installation Required]
+---------- Internal Packages - No Installation Required ----------
  - math
  - sys
  - random
@@ -31,8 +31,8 @@ Battle
  - threading
  - weather (custom module included in the project source)
 
-[Setup Guide]  
-For Anaconda users
+---------- Setup Guide ----------  
+[For Anaconda users]  
 1. Create a virtual environment  
   ① conda create -n venv python=3.10 -y  
   ② conda activate venv  
@@ -41,7 +41,7 @@ For Anaconda users
 4. Install required packages  
   ① pip install pygame opencv-python mediapipe SpeechRecognition requests xmltodict numpy  
 
-For Visual Studio Code users  
+[For Visual Studio Code users]  
 1. Install Python 3.10 or higher  
   ① Download from the official Python website.  
 2. Create a virtual environment  
