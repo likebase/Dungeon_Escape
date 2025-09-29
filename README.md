@@ -1,11 +1,11 @@
 ⚠ The Public Data Portal API server is currently down, so the program will not function correctly. ⚠  
 ⚠ You can check it through the gameplay video in the PlayVideo folder. ⚠  
 ⚠ Use "Dungeon_Escape.ipynb" when working with Anaconda, and use "Dengeon_Escape.py" when working with Visual Studio Code. ⚠  
-
+  
 ---------- Main Features of the Content ----------
  - Control via Natural User Interface (NUI) using MediaPipe and speech recognition
  - Apply real-time weather data to influence the content environment
-
+  
 ---------- Character Controls ----------  
 [Exploration]
  - Control the character using MediaPipe hand tracking.
@@ -13,7 +13,7 @@
 
 [Battle]
  - Connect a microphone and follow the guide commands displayed on the right side to perform battle actions.
-
+  
 ---------- External Packages - Installation Required ----------
  - pygame
  - opencv-python
@@ -22,7 +22,7 @@
  - mediapipe
  - requests
  - xmltodict
-
+  
 ---------- Internal Packages - No Installation Required ----------
  - math
  - sys
@@ -30,7 +30,7 @@
  - time
  - threading
  - weather (custom module included in the project source)
-
+  
 ---------- Setup Guide ----------  
 [For Anaconda users]  
 1. Create a virtual environment  
