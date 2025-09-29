@@ -2,6 +2,10 @@
 ⚠ You can check it through the gameplay video in the PlayVideo folder. ⚠  
 ⚠ Use "Dungeon_Escape.ipynb" when working with Anaconda, and use "Dengeon_Escape.py" when working with Visual Studio Code. ⚠  
 
+[Main Features of the Content]
+ - Control via Natural User Interface (NUI) using MediaPipe and speech recognition
+ - Apply real-time weather data to influence the content environment
+
 [Character Controls]  
 Exploration
  - Control the character using MediaPipe hand tracking.
