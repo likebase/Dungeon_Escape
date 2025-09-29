@@ -29,23 +29,23 @@ Battle
 [Setup Guide]
 For Anaconda users
 1. Create a virtual environment
-  ① conda create -n venv python=3.10 -y
-  ① conda activate venv
+    ① conda create -n venv python=3.10 -y
+    ① conda activate venv
 3. Upgrade pip and essential tools
-  ① python -m pip install --upgrade pip setuptools wheel
+    ① python -m pip install --upgrade pip setuptools wheel
 4. Install required packages
-  ① pip install pygame opencv-python mediapipe SpeechRecognition requests xmltodict numpy
+    ① pip install pygame opencv-python mediapipe SpeechRecognition requests xmltodict numpy
 
 For Visual Studio Code users
 1. Install Python 3.10 or higher
-  ① Download from the official Python website.
+    ① Download from the official Python website.
 2. Create a virtual environment
-  ① cd C:\python   # Example: move to your project folder
-  ② python -m venv venv  # Create virtual environment
-  ③ venv\Scripts\activate  # Activate (Windows)
+    ① cd C:\python   # Example: move to your project folder
+    ② python -m venv venv  # Create virtual environment
+    ③ venv\Scripts\activate  # Activate (Windows)
 3. Upgrade pip
-  ① python  -m pip install --upgrade pip setuptools wheel
+    ① python  -m pip install --upgrade pip setuptools wheel
 4. Install required packages
-  ① pip install pygame opencv-python mediapipe SpeechRecognition requests xmltodict numpy
+    ① pip install pygame opencv-python mediapipe SpeechRecognition requests xmltodict numpy
 5. Run the project
   ① python Dungeon_Escape.py
