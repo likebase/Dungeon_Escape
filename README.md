@@ -31,7 +31,7 @@ Battle
 For Anaconda users
 1. Create a virtual environment  
   ① conda create -n venv python=3.10 -y  
-  ① conda activate venv  
+  ② conda activate venv  
 3. Upgrade pip and essential tools  
   ① python -m pip install --upgrade pip setuptools wheel  
 4. Install required packages  
