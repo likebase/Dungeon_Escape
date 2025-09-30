@@ -1,20 +1,19 @@
-⚠ The Public Data Portal API server is currently down, so the program will not function correctly. ⚠  
-⚠ You can check it through the gameplay video in the PlayVideo folder. ⚠  
-⚠ Use "Dungeon_Escape.ipynb" when working with Anaconda, and use "Dengeon_Escape.py" when working with Visual Studio Code. ⚠  
-  
----------- Main Features of the Content ----------
- - Control via Natural User Interface (NUI) using MediaPipe and speech recognition
- - Apply real-time weather data to influence the content environment
-  
----------- Character Controls ----------  
-[Exploration]
- - Control the character using MediaPipe hand tracking.
- - The character moves based on the area detected by the camera.
+⚠ 現在、公共データポータルのAPIサーバーがダウンしているため、プログラムは正常に動作しません。⚠  
+⚠ PlayVideoフォルダ内のプレイ動画で確認することができます。⚠  
+⚠ Anacondaを使用する場合は「Dungeon_Escape.ipynb」を、Visual Studio Codeを使用する場合は「Dungeon_Escape.py」を使用してください。⚠  
 
-[Battle]
- - Connect a microphone and follow the guide commands displayed on the right side to perform battle actions.
-  
----------- External Packages - Installation Required ----------
+---------- コンテンツの主な特徴 ----------
+ - MediaPipeと音声認識を利用したナチュラルユーザーインターフェース（NUI）による操作
+ - リアルタイムの天気データを反映し、コンテンツ環境に影響を与える  
+
+---------- キャラクター操作 ----------  
+【探索】  
+ - MediaPipeのハンドトラッキングでキャラクターを操作
+ - カメラで検出されたエリアに基づいてキャラクターが移動
+【バトル】  
+ - マイクを接続し、右側に表示されるガイドコマンドに従ってバトルアクションを実行
+
+---------- 外部パッケージ（インストール必要） ----------  
  - pygame
  - opencv-python
  - numpy
@@ -22,35 +21,35 @@
  - mediapipe
  - requests
  - xmltodict
-  
----------- Internal Packages - No Installation Required ----------
+
+---------- 内部パッケージ（インストール不要） ----------  
  - math
  - sys
  - random
  - time
  - threading
- - weather (custom module included in the project source)
-  
----------- Setup Guide ----------  
-[For Anaconda users]  
-1. Create a virtual environment  
+ - weather（プロジェクトソースに含まれるカスタムモジュール）
+
+---------- セットアップガイド ----------  
+【Anacondaユーザー向け】  
+1. 仮想環境の作成（Anaconda Promptで入力）  
   ① conda create -n venv python=3.10 -y  
   ② conda activate venv  
-3. Upgrade pip and essential tools  
+2. pipと基本ツールのアップグレード  
   ① python -m pip install --upgrade pip setuptools wheel  
-4. Install required packages  
+3. 必要なパッケージのインストール  
   ① pip install pygame opencv-python mediapipe SpeechRecognition requests xmltodict numpy  
 
-[For Visual Studio Code users]  
-1. Install Python 3.10 or higher  
-  ① Download from the official Python website.  
-2. Create a virtual environment  
-  ① cd C:\python   # Example: move to your project folder  
-  ② python -m venv venv  # Create virtual environment  
-  ③ venv\Scripts\activate  # Activate (Windows)  
-3. Upgrade pip  
-  ① python  -m pip install --upgrade pip setuptools wheel  
-4. Install required packages  
+【Visual Studio Codeユーザー向け】  
+1. Python 3.10以上をインストール  
+  ① 公式Pythonサイトからダウンロード  
+2. 仮想環境の作成（Visual Studio Codeのターミナルで入力）  
+  ① cd C:\python 　　# 例：プロジェクトフォルダに移動  
+  ② python -m venv venv  
+  ③ venv\Scripts\activate  
+3. pipのアップグレード  
+  ① python -m pip install --upgrade pip setuptools wheel  
+4. 必要なパッケージのインストール  
   ① pip install pygame opencv-python mediapipe SpeechRecognition requests xmltodict numpy  
-5. Run the project  
-  ① python Dungeon_Escape.py
+5. プロジェクトの実行（プロジェクトフォルダ内で実行してください）  
+  ① python Dungeon_Escape.py  
