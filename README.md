@@ -1,4 +1,3 @@
-### ⚠ 現在、公共データポータルのAPIサーバーがダウンしているため、プログラムは正常に動作しません。⚠  
 ### ⚠ PlayVideoフォルダ内のプレイ動画で確認することができます。⚠  
 ### ⚠ Anacondaを使用する場合は「Dungeon_Escape.ipynb」を、Visual Studio Codeを使用する場合は「Dungeon_Escape.py」を使用してください。⚠  
 
